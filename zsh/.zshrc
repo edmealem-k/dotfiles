@@ -110,6 +110,17 @@ alias pd="pnpm dev"
 alias pb="pnpm build"
 alias pi="pnpm install"
 
+alias bi="bun install"
+alias bd="bun run dev"
+alias bds="bun run db:seed"
+alias bdg="bun run db:generate"
+alias bdp="bun run db:push"
+
+alias gs="git status"
+
+
+alias mongo="sudo systemctl start mongod"
+alias smysql="sudo systemctl start mysql"
 # clear the terminal
 alias c="clear"
 alias v="nvim"
